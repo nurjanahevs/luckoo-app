@@ -16,30 +16,34 @@ const Advertise = () => {
       <h2>Top NFT <br/> ------- of The Week</h2>
       <h1>Mario Bros #001</h1>
       <div className="topnft">
-        <p>Lorem Ipsum Collection</p>
-        <p>SotoAyam_Uenak</p>
+        <table>
+          <tr>
+            <th>Lorem Ipsum Collection</th>
+            <th></th>
+            <th>SotoAyam_Uenak</th>
+          </tr>
+        </table>
       </div>
 
       <div className="current">
-        <p>Current Bid</p>
-        <h1>3.00 ETH <p>$7,282.98</p></h1>
+      <p>Current Bid</p>
+        <table>
+          <tr>
+            <th>3.00 ETH</th>
+            <th>$7,282.98</th>
+          </tr>
+        </table>
       </div>
 
       <div className="auction">
-        <div className="row">
-          <div className="column">
-          <h1>02<p>Day</p></h1>
-          </div>
-        </div>
-        <div className="row">
-          <div className="column">
-          <h1>15<p>Hour</p></h1>
-          </div>
-        </div>
-        
-        <h1>15<p>Hour</p></h1>
-        <h1>20<p>Minute</p></h1>
-        <h1>18<p>Second</p></h1>
+ <table>
+   <tr>
+     <th>02 Day</th>
+     <th>15 Hour</th>
+     <th>20 Minute</th>
+     <th>18 Second</th>
+   </tr>
+ </table>
       </div>
 
       <p>Place a Bid <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
