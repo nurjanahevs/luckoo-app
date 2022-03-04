@@ -1,5 +1,6 @@
 *{
-  background-color:#68148f;
+  background-image: linear-gradient(90deg, rgb(126, 13, 160), rgb(45, 45, 48));
+
 }
 
 .container {
@@ -7,9 +8,4 @@
   height: auto;
 }
 
-body{
-  background-color:#68148f;
-  margin: 0;
-  padding: 0;
-}
 
