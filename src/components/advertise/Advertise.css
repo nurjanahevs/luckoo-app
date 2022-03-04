@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 60px;
+}
+
+.card {
+ width: 20px;
+}
+
+col1 {
+  width: 100px;
+  height: 100px;
+}
