@@ -1,0 +1,15 @@
+
+
+.card, .card-image {
+  width: 100px;
+  height: 200px;
+  margin: auto;
+  
+}
+
+.slides {
+  width: 300px;
+  height: 200px;
+  border-radius: 4px;
+}
+
